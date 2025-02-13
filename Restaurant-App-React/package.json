@@ -1,0 +1,32 @@
+{
+  "name": "restaurant-app-react",
+  "version": "1.0.0",
+  "description": "Restaurant app created from React",
+  "homepage": "https://github.com/Himanshu22Soni/React-Projects-Himanshu#readme",
+  "bugs": {
+    "url": "https://github.com/Himanshu22Soni/React-Projects-Himanshu/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Himanshu22Soni/React-Projects-Himanshu.git"
+  },
+  "license": "ISC",
+  "author": "Himanshu Soni",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
